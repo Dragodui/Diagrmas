@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "Klient.h"
+#include "Klient.cpp"
 #include "Dostawca.cpp"
 #include <numeric>
 

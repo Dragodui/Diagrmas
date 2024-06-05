@@ -1,6 +1,7 @@
 #include <string>
 #include <iostream>
 #include "Data.cpp"
+#include "Dostawca.cpp"
 
 class Zamowienie_hulajnogi {
 public:
@@ -12,7 +13,7 @@ public:
     Data czas_zwrotu;
     int id_egzemplarza;
 
-    void Zloz_zamowienie(int dostawca, Data data, Data czas_zam, Data czas_zwrotu) {
+    void Zloz_zamowienie(Dostawca dostawca, Data data, Data czas_zam, Data czas_zwrotu) {
         // Implement scooter order placing logic
     }
 

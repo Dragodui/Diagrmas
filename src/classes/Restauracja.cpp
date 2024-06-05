@@ -3,7 +3,7 @@
 #include <vector>
 #include "Danie.cpp"
 #include "Zamowienie.cpp"
-#include "../implementations/Dostawca.cpp"
+#include "Dostawca.cpp"
 
 class Restauracja {
 public:
@@ -20,7 +20,7 @@ public:
         
     std::cout << "Przyjęto nowe zamówienie o numerze: " << zamowienie.id_zamowienia << std::endl;
     }
-    void Wyslij_kurierowi_powiadomienie(const Zamowienie &zamowienie, const Dostawca &dostawca) {
+    void Wyslij_kurierowi_powiadomienie(const Zamowienie &zamowienie, const Destach &dostawca) {
             std::cout << "Wysłano powiadomienie do kuriera o numerze: " << dostawca.id_dostawcy
               << " dla zamówienia o numerze: " << zamowienie.id_zamowienia << std::endl;
     }

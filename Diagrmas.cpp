@@ -2,15 +2,13 @@
 #include <string>
 #include <vector>
 #include <ctime>
-
+#include "src/classes/Dostawca.cpp"
+#include "src/classes/Zamowienie.cpp"
+#include "src/classes/Pozycja_zamowienia.cpp"
 #include "src/classes/Platnosc.cpp"
 #include "src/classes/Danie.cpp"
 #include "src/classes/Klient.cpp"
 #include "src/classes/Restauracja.cpp"
-#include "src/classes/Klient.cpp"
-#include "src/classes/Dostawca.cpp"
-#include "src/classes/Zamowienie.cpp"
-#include "src/classes/Pozycja_zamowienia.cpp"
 
 int main()
 {
