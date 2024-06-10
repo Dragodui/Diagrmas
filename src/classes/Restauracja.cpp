@@ -20,7 +20,7 @@ public:
         
     std::cout << "Przyjęto nowe zamówienie o numerze: " << zamowienie.id_zamowienia << std::endl;
     }
-    void Wyslij_kurierowi_powiadomienie(const Zamowienie &zamowienie, const Destach &dostawca) {
+    void Wyslij_kurierowi_powiadomienie(const Zamowienie &zamowienie, const Dostawca &dostawca) {
             std::cout << "Wysłano powiadomienie do kuriera o numerze: " << dostawca.id_dostawcy
               << " dla zamówienia o numerze: " << zamowienie.id_zamowienia << std::endl;
     }

@@ -2,7 +2,7 @@
 #include <string>
 #include "Data.cpp"
 #include "Osoba.cpp"
-#include "Restauracja.h"
+#include "Restauracja.cpp"
 
 class Analityk : public Osoba
 {

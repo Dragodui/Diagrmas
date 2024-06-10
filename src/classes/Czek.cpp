@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "Platnosc.h"
+#include "Platnosc.cpp"
 
 class Czek : public Platnosc {
 public:

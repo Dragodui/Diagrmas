@@ -1,4 +1,4 @@
-#include "Platnosc.h"
+#include "Platnosc.cpp"
 
 class Gotowka : public Platnosc {
     

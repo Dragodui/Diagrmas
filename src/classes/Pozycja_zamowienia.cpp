@@ -1,5 +1,3 @@
-
-
 #include "Danie.cpp"
 
 class Pozycja_zamowienia {
